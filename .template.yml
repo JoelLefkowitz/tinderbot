@@ -1,0 +1,47 @@
+output_dir: .
+
+clear_top_level: true
+logical_grouping: true
+
+collections:
+  - common
+  - typescript
+
+loader_paths:
+  - docs
+
+render_context:
+  project:
+    project_name: tinderbot
+    version: 0.1.0
+
+    verbose_name: Tinderbot
+    description: Tinder Pupeteer scripts.
+
+    repository: https://github.com/JoelLefkowitz/tinderbot
+    codacy_id: a73118d332724935930464a45c9da3cc
+
+    inserts:
+      - usage.md
+
+  author:
+    author: Joel Lefkowitz
+    author_email: joellefkowitz@hotmail.com
+    author_github_handle: joellefkowitz
+
+  package:
+    is_npm_package: true
+    package_name: tinderbot-puppet
+
+  portfolio:
+    is_portfolio: true
+    status_level: 4
+
+    languages:
+      - TypeScript
+
+    frameworks:
+      - Puppeteer
+
+    paradigms:
+      - Object oriented programming

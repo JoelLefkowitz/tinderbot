@@ -1,24 +1,11 @@
 {
-  "name": "tinderbot-puppet",
-  "version": "1.0.0",
-  "description": "Tinder Pupeteer scripts.",
-  "license": "MIT",
-  "author": "Joel Lefkowitz",
-  "portfolio": {
-    "project_type": "Npm package",
-    "homepage": "https://tinderbot.readthedocs.io",
-    "languages": [
-      "TypeScript"
-    ],
-    "frameworks": [
-      "Puppeteer"
-    ],
-    "paradigms": [
-      "Containerised microservices",
-      "Object oriented programming"
-    ],
-    "status": [
-      "Stable"
-    ]
+  "devDependencies": {
+    "cspell": "^5.3.7",
+    "grunt": "^1.3.0",
+    "grunt-cli": "^1.3.0",
+    "grunt-exec": "^3.0.0",
+    "remark-cli": "^9.0.0",
+    "remark-lint": "^8.0.0",
+    "remark-preset-lint-recommended": "^5.0.0"
   }
 }
